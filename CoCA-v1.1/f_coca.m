@@ -18,7 +18,7 @@ for k_SrcNum = Comp
     save([stpath '\cMap#' num2str(k_SrcNum)],'cMap');
 end
 disp('Indexing out the Iq for consistency index calculation...');
-f_cMapDeOrder(stpath,Comp,'save','off')
+f_coca_RqIndexout(stpath,Comp,'save','off')
 
 %%
 disp('Indexing out the Iq for consistency index calculation...');

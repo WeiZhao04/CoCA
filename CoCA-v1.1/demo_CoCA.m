@@ -1,14 +1,14 @@
 clc,clear
 close all
-% The demo code of coca, which is programed to serve the consisitency
+% The demo code of CoCa, which is programed to serve the consisitency
 % analysis for ICA decomposition results.  
 % 
-% ver 1.1 120520 Weir Zhao
+% ver 1.2 06/30/20 Weir Zhao
 
 tic
-%% Parameters need to be changed
+%% Parameters initialization
 SourceFile = '.\data';
-OutPutdir = 'GroupICA_fast_Result';
+OutPutdir = 'tesssst';
 runs = 50;
 Comp = 2:12;
 Method = 'FastICA';

@@ -15,10 +15,10 @@ elseif nargin == 3
     switch lower(Cq_base)
         case 'cc'
             load([MapPath filesep 'hcMap#' num2str(NoC) '.mat'])
-            cMap = hcMap;
+            cMap = hcMap';
         case 'iq'
             load([MapPath filesep 'iqcMap#' num2str(NoC) '.mat'])
-            cMap = iqMap;
+            cMap = iqMap';
         otherwise
             error('Input argument does not exsist');
     end
@@ -80,7 +80,7 @@ else
     ph2_crt = ones(size(cMap(NoC:end,:)))*NaN;
 end
 %%
-Cqs = [ph1_crt;ph2_crt];
+Cqs = [ph1_crt;ph2_crt]';
 %%
 figure('visible','off')
 plot(ph1_crt,'r*','linewidth',2), hold on
