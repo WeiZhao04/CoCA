@@ -4,7 +4,9 @@
  consistently in most model orders.
  
  This work is based on the software package of ICASSO (Himberg_et_al_2004) and Tensor-clustering-master (Hu_et_al_2019).
+ Article hass been published in https://doi.org/10.1016/j.jneumeth.2020.109013
  Please cite this paper if you used this code for your data analysis.
  
+
  Email:wei.zhao.dlut@foxmail.com
  
